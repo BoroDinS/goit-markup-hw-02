@@ -1,0 +1,75 @@
+.address {
+  font-style: normal;
+}
+
+.navigation__list-item {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: #212121;
+}
+
+.navigation__list-item:hover,
+.navigation__list-item:focus,
+.header__contakts:hover,
+.header__contakts:focus {
+  color: #2196f3;
+}
+
+.header__contakts {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: #757575;
+}
+
+.hero__title {
+  font-family: "Roboto", sans-serif;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 0.73;
+  /* or 136% */
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  /* color: #FFFFFF; */
+}
+
+.btn {
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 0.53;
+  /* identical to box height, or 187% */
+
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+
+  /* color: #ffffff; */
+}
+
+.advantages__title {
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 0.875;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #212121;
+}
+
+.advantages__description {
+  font-family: "Roboto", sans-serif;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 0.58;
+  /* or 171% */
+  letter-spacing: 0.03em;
+  color: #757575;
+}
