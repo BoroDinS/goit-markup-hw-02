@@ -1,5 +1,29 @@
-.address {
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style-type: none;
+}
+
+address {
   font-style: normal;
+}
+
+/* ============= HEADER ============= */
+
+.logo__web,
+.logo__studio-header {
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  color: #000000;
+}
+
+.logo__web {
+  color: #2196f3;
 }
 
 .navigation__list-item {
@@ -11,14 +35,20 @@
   color: #212121;
 }
 
-.navigation__list-item:hover,
-.navigation__list-item:focus,
-.header__contakts:hover,
-.header__contakts:focus {
+.navigation__list .navigation__list-item.is-current {
   color: #2196f3;
 }
 
-.header__contakts {
+.navigation__list-item:hover,
+.navigation__list-item:focus,
+.contact__mail-header:hover,
+.contact__mail-header:focus,
+.contact__tel-header:hover,
+.contact__tel-header:focus {
+  color: #2196f3;
+}
+
+.contact__mail-header {
   font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 14px;
@@ -27,11 +57,24 @@
   color: #757575;
 }
 
+.contact__tel-header {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: #757575;
+}
+
+/* ============= HEADER END ============= */
+
+/* ============= HERO ============= */
+
 .hero__title {
   font-family: "Roboto", sans-serif;
   font-weight: 900;
   font-size: 44px;
-  line-height: 0.73;
+  line-height: 1.36;
   /* or 136% */
   text-align: center;
   letter-spacing: 0.06em;
@@ -43,9 +86,7 @@
   font-family: "Roboto", sans-serif;
   font-weight: bold;
   font-size: 16px;
-  line-height: 0.53;
-  /* identical to box height, or 187% */
-
+  line-height: 1.875;
   display: flex;
   align-items: center;
   text-align: center;
@@ -54,11 +95,15 @@
   /* color: #ffffff; */
 }
 
+/* ============= HERO END ============= */
+
+/* ============= ADVANTAGES ============= */
+
 .advantages__title {
   font-family: "Roboto", sans-serif;
   font-weight: bold;
   font-size: 14px;
-  line-height: 0.875;
+  line-height: 1.14;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #212121;
@@ -66,10 +111,75 @@
 
 .advantages__description {
   font-family: "Roboto", sans-serif;
-  font-weight: normal;
+  font-weight: 400;
   font-size: 14px;
-  line-height: 0.58;
-  /* or 171% */
+  line-height: 1.714;
   letter-spacing: 0.03em;
   color: #757575;
+}
+
+.team__title {
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 1.166;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #212121;
+}
+
+.team__member {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #212121;
+}
+
+.member__occupation {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.19;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #757575;
+}
+
+.logo__studio-footer {
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  /* color: #ffffff; */
+}
+
+.address {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.714;
+  letter-spacing: 0.03em;
+  /* color: #ffffff; */
+}
+
+.contact__mail-footer {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.714;
+  letter-spacing: 0.03em;
+  /* color: rgba(255, 255, 255, 0.6); */
+}
+
+.contact__tel-footer {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.714;
+  letter-spacing: 0.03em;
+  /* color: rgba(255, 255, 255, 0.6); */
 }
