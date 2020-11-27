@@ -13,7 +13,7 @@ address {
 /* ============= HEADER ============= */
 
 .logo__web,
-.logo__studio-header {
+.logo__studio {
   font-family: "Roboto", sans-serif;
   font-weight: bold;
   font-size: 26px;
@@ -118,6 +118,14 @@ address {
   color: #757575;
 }
 
+/* ============= ADVANTAGES END ============= */
+
+/* ============= SERVICES SECTION ============= */
+
+/* ========== SERVICES SECTION END ========== */
+
+/* =========== OUR TEAM SECTION =========== */
+
 .team__title {
   font-family: "Roboto", sans-serif;
   font-weight: bold;
@@ -148,13 +156,12 @@ address {
   color: #757575;
 }
 
-.logo__studio-footer {
-  font-family: "Roboto", sans-serif;
-  font-weight: bold;
-  font-size: 26px;
-  line-height: 1.19;
-  letter-spacing: 0.03em;
-  /* color: #ffffff; */
+/* ============= OUR TEAM SECTION END ============= */
+
+/* ============= FOOTER ============= */
+
+.logo__footer > .logo__studio {
+  color: #ffffff;
 }
 
 .address {
@@ -183,3 +190,43 @@ address {
   letter-spacing: 0.03em;
   /* color: rgba(255, 255, 255, 0.6); */
 }
+
+/* ============= FOOTER END ============= */
+
+/* ============= PORTFOLIO ============= */
+
+.btn {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.625;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #212121;
+}
+
+.btn:hover,
+.btn:focus {
+  color: #ffffff;
+  background-color: #2196f3;
+}
+
+.projects__title {
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: #212121;
+}
+
+.description {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.875;
+  letter-spacing: 0.03em;
+  color: #757575;
+}
+
+/* ============= PORTFOLIO END ============= */
