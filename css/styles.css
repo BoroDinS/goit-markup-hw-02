@@ -39,10 +39,10 @@ address {
 .title {
   font-family: var(--main-font);
   font-weight: 700;
-  font-size: 14px;
-  line-height: 1.14;
+  font-size: 36px;
+  line-height: 1.166;
+  text-align: center;
   letter-spacing: 0.03em;
-  text-transform: uppercase;
   color: #212121;
 }
 
@@ -122,6 +122,16 @@ address {
 /* ============= HERO END ============= */
 
 /* ============= ADVANTAGES ============= */
+
+.advantages__title {
+  font-family: var(--main-font);
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #212121;
+}
 
 .advantages__description {
   font-family: var(--main-font);
